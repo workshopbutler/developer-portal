@@ -14,15 +14,6 @@ To make the development of our backend system, the WordPress plugin, the JS widg
 the themes themselves less interconnected, we branched out the themes, and deploy them
 separately.
 
-## How They Look
-Check the following links to find out how our default themes look like:
-
-* Alfred
-* Britton
-* Dacota
-* Hayes
-* Gatsby
-
 ## Versions
 
 !!! important

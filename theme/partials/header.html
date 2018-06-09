@@ -1,18 +1,17 @@
 <header class="md-header" data-md-component="header">
-  <div class='s-head'>
-    <div class="s-center">
+  <div class='s-head md-grid'>
+    <div class="wsb-header__left">
       <a class="s-head__logo" href="https://workshopbutler.com"></a>
       <div class="head-menu">
-          <ul id="site_top" class="menu"><li id="menu-item-261" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-261"><a href="https://workshopbutler.com/product">Product</a></li>
-            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262"><a href="https://workshopbutler.com/pricing">Pricing</a></li>
-            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-424"><a href="https://medium.com/workshop-butler">Blog</a></li>
-            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-217"><a href="http://workshopbutler.com/help">Help center</a></li>
+          <ul id="site_top" class="menu">
+            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://workshopbutler.com/product">Product</a></li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://workshopbutler.com/pricing">Pricing</a></li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://medium.com/workshop-butler">Blog</a></li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://support.workshopbutler.com">Help center</a></li>
           </ul>
       </div>
-
-      <a href="#" class="s-head__menu-toggle" data-menu-site="">
-          <i class="icon-buter"></i>
-      </a>
+    </div>
+    <div class="wsb-header__right">
       <div class="s-head__reg">
           <a class="s-head__reg-login" href="https://app.workshopbutler.com/login">
               Login
@@ -21,21 +20,10 @@
               Get started
           </a>
       </div>
-  </div>
+    </div>
   </div>
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
-      <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="{{ config.site_url | default(nav.homepage.url, true) }}" title="{{ config.site_name }}" class="md-header-nav__button md-logo">
-          {% if config.theme.logo.icon %}
-            <i class="md-icon">{{ config.theme.logo.icon }}</i>
-          {% elif config.theme.logo.startswith("http") %}
-            <img src="{{ config.theme.logo }}" width="24" height="24">
-          {% else %}
-            <img src="{{ base_url }}/{{ config.theme.logo }}" width="24" height="24">
-          {% endif %}
-        </a>
-      </div>
       <div class="md-flex__cell md-flex__cell--shrink">
         <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
       </div>

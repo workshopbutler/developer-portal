@@ -23,6 +23,15 @@ google_analytics:
   - 'UA-42138624-5'
   - 'auto'
 
+extra:
+  social:
+      - type: 'twitter'
+        link: 'https://twitter.com/workshopbutler'
+      - type: 'linkedin'
+        link: 'https://www.linkedin.com/company/workshop-butler'
+      - type: 'facebook'
+        link: 'https://facebook.com/WorkshopButler'
+
 pages:
 - Home: index.md
 - WordPress Plugin:
