@@ -1,0 +1,42 @@
+site_name: Developer Portal
+site_url: https://workshopbutler.com/docs
+theme:
+  name: 'material'
+  custom_dir: 'theme'
+  font: 'Arial'
+  favicon: 'img/favicon.ico'
+  palette:
+    primary: 'white'
+    accent: 'pink'
+  feature:
+    tabs: true
+
+extra_css:
+  - css/extra.css
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+
+google_analytics:
+  - 'UA-42138624-5'
+  - 'auto'
+
+pages:
+- Home: index.md
+- WordPress Plugin:
+  - Getting Started: wordpress/index.md
+  - Customising Styles: wordpress/custom-styles.md
+  - Shortcodes:
+    - Getting Started: wordpress/shortcodes.md
+    - Page Level shortcodes: wordpress/shortcodes/page-level.md
+    - Schedule Template: wordpress/shortcodes/schedule-template.md
+    - Event Template: wordpress/shortcodes/event-template.md
+    - Trainer List Template: wordpress/shortcodes/trainer-list-template.md
+    - Trainer Profile Template: wordpress/shortcodes/trainer-profile-template.md
+  - Changelog: wordpress/changelog.md
+- Themes:
+  - Getting Started: themes/index.md
+  - Creating a Custom Theme: themes/custom-theme.md
+  - Changelog: themes/changelog.md

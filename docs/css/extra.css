@@ -1,0 +1,95 @@
+.s-head {
+    padding-top: 21px;
+    padding-bottom: 20px;
+    display: block;
+    zoom: 1;
+}
+.s-center {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.s-head__logo {
+    display: inline-block;
+    float: left;
+    margin-right: 39px;
+    width: 182px;
+    height: 42px;
+    background: url(/img/icon-logo.png) no-repeat;
+    background-size: cover;
+}
+.head-menu {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 15px;
+    float: left;
+}
+.head-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.head-menu li {
+    display: inline;
+}
+.head-menu a {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 27px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #27200e !important;
+    transition: all 0.15s ease;
+    text-decoration: none !important;
+    text-transform: uppercase;
+}
+
+a {
+    background-color: transparent;
+}
+
+.s-head__reg {
+    height: 45px;
+    line-height: 45px;
+    float: right;
+}
+.s-head__reg-login {
+    display: inline-block;
+    color: #27200E!important;
+    text-decoration: none !important;
+    transition: all 0.15s ease;
+}
+.s-head__reg-start {
+    color: #ffffff !important;
+    margin-left: 20px;
+    background: #27200E !important;
+    min-width: 96px;
+    padding-top: 13px;
+    padding-bottom: 14px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.btn {
+    display: inline-block;
+    padding: 4px 18px 6px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.9;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    text-decoration: none!important;
+    transition: all .15s ease;
+}
