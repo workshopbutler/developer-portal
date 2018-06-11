@@ -1,5 +1,5 @@
 site_name: Developer Portal
-site_url: https://workshopbutler.com/docs
+site_url: https://workshopbutler.com/developers
 theme:
   name: 'material'
   custom_dir: 'theme'

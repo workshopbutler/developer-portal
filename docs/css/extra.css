@@ -11,7 +11,7 @@
     margin-right: 39px;
     width: 182px;
     height: 42px;
-    background: url(/img/icon-logo.png) no-repeat;
+    background: url(../img/icon-logo.png) no-repeat;
     background-size: cover;
 }
 .head-menu {
