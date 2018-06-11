@@ -1,5 +1,8 @@
 language: python
 
+addons:
+  ssh_known_hosts: ${SSH_SERVER}
+  
 before_install:
   - pip install mkdocs
   - pip install mkdocs-material
