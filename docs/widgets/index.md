@@ -7,7 +7,7 @@
 
 Workshop Butler JS Widgets library allows you to display information about events and trainers on
 your website and enables visitors to register for your workshops via customisable registration forms.
-It is easily configurable and works seamlessly with [Workshop Butler API](https://support.workshopbutler.com/api).
+It is easily configurable and works seamlessly with [Workshop Butler API](/api).
 
 There are six types of supported widgets:
 

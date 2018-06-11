@@ -12,7 +12,7 @@ This widget renders the list of public upcoming events for your account.
 | **filters** | array of strings | | Contains the names of filters which should be added to the list of events. Supported filters are: <br> <ul><li>**type**. Events are filtered by event type</li><li>**location**. Events are filtered by country</li><li>**language**. Events are filtered by spoken language</li><li>**trainer**. Events are filtered by trainers of these events.</li><br>The order of filters is important. If you want to see a filter by trainers first, by location - second, by type - third and no filter by language, then the configuration should be `['trainer', 'location', 'type']`. |
 | **template** | string || ID of an HTML element containing a [Nunjucks template](https://mozilla.github.io/nunjucks/) for an event in the list. Must have a leading `#` symbol. |
 | **templateUrl** | string || URL to a file containing a [Nunjucks template](https://mozilla.github.io/nunjucks/) for event in the list. Use it during the development only as it significantly reduces the speed of content rendering. |
-| **fields** | array of string || Additional fields which should be returned by [Workshop Butler API](https://support.workshopbutler.com/api) for each event. Check the API description for the list of available fields |
+| **fields** | array of string || Additional fields which should be returned by [Workshop Butler API](/api) for each event. Check the API description for the list of available fields |
 | **theme** | string || Name of the theme. Five themes are supported out of the box: *alfred*, *dacota*, *britton*, *hayes*, and *gatsby*. Provide a name of your own theme if you [created a custom one](../../themes/custom-theme.md). |
 
 ## Switching between layouts

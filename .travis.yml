@@ -4,9 +4,11 @@ before_install:
   - pip install mkdocs
   - pip install mkdocs-material
   - pip install pymdown-extensions
+  - npm install -g aglio
 
 script:
-  - mkdocs build
+  - chmod +x build.sh
+  - ./build.sh
 
 after_success:
   - echo "${SSH_KEY}" | base64 --decode >/tmp/ssh_rsa
