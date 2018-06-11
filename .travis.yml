@@ -1,8 +1,5 @@
 language: python
 
-addons:
-  ssh_known_hosts: ${SSH_SERVER}
-  
 before_install:
   - pip install mkdocs
   - pip install mkdocs-material
@@ -15,5 +12,6 @@ after_success:
   - echo "${SSH_KEY}" | base64 --decode >/tmp/ssh_rsa
   - chmod 600 /tmp/ssh_rsa
   - echo "put site.tgz" > /tmp/batch
+  - echo "${SSH_SERVER} ecdsa-sha2-nistp256 ${SSH_SERVER_PUBLIC_KEY}" >> ~/.ssh/known_hosts
   - sftp -i /tmp/ssh_rsa -b /tmp/batch ${SSH_USER}@${SSH_SERVER}:/var/www/developers
   - ssh -i /tmp/ssh_rsa ${SSH_USER}@${SSH_SERVER} "cd /var/www/developers && tar xzf site.tgz && rm.site.tgz"
