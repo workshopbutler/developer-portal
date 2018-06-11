@@ -1,0 +1,16 @@
+language: python
+
+before_install:
+  - pip install mkdocs
+  - pip install mkdocs-material
+  - pip install pymdown-extensions
+
+script:
+  - mkdocs build
+
+after_success:
+  - echo "${SSH_KEY}" | base64 --decode >/tmp/ssh_rsa
+  - chmod 600 /tmp/ssh_rsa
+  - echo "put site.tgz" > /tmp/batch
+  - sftp -i /tmp/ssh_rsa -b /tmp/batch ${SSH_USER}@${SSH_SERVER}:/var/www/developers
+  - ssh -i /tmp/ssh_rsa ${SSH_USER}@${SSH_SERVER} "cd /var/www/developers && tar xzf site.tgz && rm.site.tgz"
