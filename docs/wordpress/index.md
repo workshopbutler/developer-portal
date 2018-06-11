@@ -1,8 +1,11 @@
 # Workshop Butler WordPress Plugin
 
+!!! danger
+    The plugin is on the review by a WorkPress team and is not available on WordPress.org yet. If you want to use it, please, send a request to support@workshopbutler.com
+
 !!! info
     Current version: 0.3.0  
-    
+
     Repository: [https://github.com/workshopbutler/wordpress-plugin](https://github.com/workshopbutler/wordpress-plugin)
 
 Our plugin for WordPress contains several page templates and a number of

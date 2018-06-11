@@ -18,6 +18,10 @@ markdown_extensions:
   - toc:
       permalink: true
   - admonition
+  - codehilite:
+      guess_lang: false
+  - pymdownx.magiclink
+  - pymdownx.inlinehilite
 
 google_analytics:
   - 'UA-42138624-5'
@@ -33,7 +37,23 @@ extra:
         link: 'https://facebook.com/WorkshopButler'
 
 pages:
-- Home: index.md
+- Home:
+  - Home: index.md
+  - Contributing: contributing.md
+- JS Widgets:
+  - Getting Started: widgets/index.md
+  - Widgets:
+    - Schedule: widgets/widgets/schedule.md
+    - Event Page: widgets/widgets/event-page.md
+    - Trainer List: widgets/widgets/trainer-list.md
+    - Trainer Profile: widgets/widgets/trainer-profile.md
+    - Registraiton Form: widgets/widgets/registration-form.md
+    - Sidebar Event List: widgets/widgets/sidebar-event-list.md
+  - Changelog: widgets/changelog.md
+- Themes:
+  - Getting Started: themes/index.md
+  - Creating a Custom Theme: themes/custom-theme.md
+  - Changelog: themes/changelog.md
 - WordPress Plugin:
   - Getting Started: wordpress/index.md
   - Customising Styles: wordpress/custom-styles.md
@@ -45,7 +65,3 @@ pages:
     - Trainer List Template: wordpress/shortcodes/trainer-list-template.md
     - Trainer Profile Template: wordpress/shortcodes/trainer-profile-template.md
   - Changelog: wordpress/changelog.md
-- Themes:
-  - Getting Started: themes/index.md
-  - Creating a Custom Theme: themes/custom-theme.md
-  - Changelog: themes/changelog.md
