@@ -11,6 +11,7 @@ script:
 after_success:
   - echo "${SSH_KEY}" | base64 --decode >/tmp/ssh_rsa
   - chmod 600 /tmp/ssh_rsa
+  - tar cz -f site.tgz -C site/ .
   - echo "put site.tgz" > /tmp/batch
   - echo "${SSH_SERVER} ecdsa-sha2-nistp256 ${SSH_SERVER_PUBLIC_KEY}" >> ~/.ssh/known_hosts
   - sftp -i /tmp/ssh_rsa -b /tmp/batch ${SSH_USER}@${SSH_SERVER}:/var/www/developers
