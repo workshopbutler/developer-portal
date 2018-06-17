@@ -6,7 +6,7 @@ This widget renders the list of public upcoming events for your account.
 
 | Name | Type | Default | Description |
 |------|------|---------|-------------|
-| **type** | string | | Must be `EventList` for this widget |
+| **type** | string | | `version >= 0.5.0` Must be `Schedule` for this widget<br>`version <= 0.5.0` Must be `EventList` for this widget |
 | **target** | string | | ID of an HTML element where the widget's content is placed. Should have a leading `#` symbol |
 | **eventPageUrl** | string | | A relative path to a page with a configured [EventPage](event-page.md) widget. This path is used to make an URL to the event page. For example, with `#!js eventPageUrl='/event-details.html'`, an URL for the event with `id=1` will be `#!js /event-details.html?id=1`
 | **filters** | array of strings | | Contains the names of filters which should be added to the list of events. Supported filters are: <br> <ul><li>**type**. Events are filtered by event type</li><li>**location**. Events are filtered by country</li><li>**language**. Events are filtered by spoken language</li><li>**trainer**. Events are filtered by trainers of these events.</li><br>The order of filters is important. If you want to see a filter by trainers first, by location - second, by type - third and no filter by language, then the configuration should be `['trainer', 'location', 'type']`. |
@@ -29,7 +29,7 @@ templates.setEventListType(true);
 
 ```javascript
 const schedule = {
-   type: 'EventList',
+   type: 'Schedule',
    target: '#wsb-event-list',
    eventPageUrl: '/event-page.html',
    filters: ['location', 'language', 'trainer'],

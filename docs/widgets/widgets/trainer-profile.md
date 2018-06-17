@@ -6,7 +6,7 @@ This widget renders the profile of a trainer.
 
 | Name | Type | Default | Description |
 |------|------|---------|-------------|
-| **type** | string | | Must be `TrainerPage` for this widget |
+| **type** | string | | `version >= 0.5.0` Must be `TrainerProfile` for this widget<br>`version <= 0.5.0` Must be `TrainerPage` for this widget |
 | **target** | string | | ID of an HTML element where the widget's content is placed. Should have a leading `#` symbol |
 | **template** | string || ID of an HTML element containing a [Nunjucks template](https://mozilla.github.io/nunjucks/) for an event in the list. Must have a leading `#` symbol. |
 | **templateUrl** | string || URL to a file containing a [Nunjucks template](https://mozilla.github.io/nunjucks/) for event in the list. Use it during the development only as it significantly reduces the speed of content rendering. |
@@ -19,7 +19,7 @@ This widget renders the profile of a trainer.
 
 const widgets = [
    {
-       type: 'TrainerPage',
+       type: 'TrainerProfile',
        target: '#wsb-trainer',
        theme: 'alfred',
        widgets: [

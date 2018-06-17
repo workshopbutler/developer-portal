@@ -66,7 +66,7 @@ The initialisation script consists of two main parts: the configuration of widge
 document.addEventListener('wsbwidgetsloaded', function () {
    const apiKey = 'api_key';
    const eventList = {
-       type: 'EventList',
+       type: 'Schedule',
        target: '#wsb-event-list',
        theme: 'alfred',
        eventPageUrl: '/event-details.html',
