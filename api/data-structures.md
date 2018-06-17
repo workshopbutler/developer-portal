@@ -22,12 +22,12 @@
 + end (string) - End date in YYYY-mm-DD format
 + location (Location)
 
-## Attendee (object)
-+ id (number) - The ID of the attendee
-+ first_name (string)
-+ last_name (string)
+## Attendee (object) - Attendee
++ id: 3 (number) - The ID of the attendee
++ first_name: Anna (string)
++ last_name: Brick (string)
 + date_of_birth (string) - Date of birth in YYYY-mm-DD format
-+ email (string)
++ email: anna.brick@workshopbutler.com (string)
 + country (string) - Name of country
 + city (string)
 + street_1 (string)
@@ -138,6 +138,9 @@
 + photo (string) - Url of the person's photo
 + country (string) - ISO 8166-2 2-letters country code
 + rating (number) - Trainer's rating. May be 'null'
++ public_stats (Statistics) - Available since version 2018-06-12
++ private_stats (Statistics) - Available since version 2018-06-12
+
 
 ## Facilitator (object)
 + id (number) - Id of the facilitator
@@ -177,3 +180,9 @@
     + private_nps (number)
     + number_of_public_evaluations
     + number_of_private_evaluations
+
+## Statistics (object) - contains a trainer's statistics
++ number_of_evaluations: 5 (number)
++ nps: 57.4 (number) - NPS can be negative
++ median: 5.67 (number)
++ rating: 7.98 (number)

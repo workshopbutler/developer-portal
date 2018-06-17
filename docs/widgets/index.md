@@ -1,7 +1,7 @@
 # JS Widgets
 
 !!!info
-    Current version: 0.5.0
+    Current version: 0.6.0
 
     Repository: https://github.com/workshopbutler/js-widgets
 
@@ -20,7 +20,21 @@ There are six types of supported widgets:
 
 ## Requirements
 
-* jQuery version higher than 2.2.4
+* jQuery version higher than 2.1.4
+
+## Versions
+
+!!! important
+    Starting the version 0.4.0 the widgets are hosted on `https://cdn.workshopbutler.com`
+
+| Version | Files |
+| ------- | ----- |
+| 0.6.0   | [0.6.0](https://cdn.workshopbutler.com/widgets.0.6.0.js) |
+| 0.5.0   | [0.5.0](https://cdn.workshopbutler.com/widgets.0.5.0.js) |
+| 0.4.0   | [0.4.0](https://cdn.workshopbutler.com/widgets.0.4.0.js) |
+| 0.3.2   | [0.3.2](https://integrations.workshopbutler.com/widgets.0.3.2.js) |
+| 0.3.1  | [0.3.1](https://integrations.workshopbutler.com/widgets.0.3.1.js) |
+
 
 ## Installation
 
@@ -30,8 +44,8 @@ Add this code to the header of any page you want to have a working widget:
 ```html
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
-<script src="https://cdn.workshopbutler.com/widgets.0.4.0.js" defer></script>
-<link href="https://cdn.workshopbutler.com/styles.0.4.0.min.css" rel="stylesheet">
+<script src="https://cdn.workshopbutler.com/widgets.0.6.0.js" defer></script>
+<link href="https://cdn.workshopbutler.com/styles.0.5.1.min.css" rel="stylesheet">
 ```
 
 ### Initialise a widget (or widgets)

@@ -1,8 +1,25 @@
+## The event object
+
+### Attributes
+| Name | Type | Description |
+|-|-|-|
+| **id** | positive number | Unique identifier for the object |
+| **hashed_id** | string | Unique identifier for the object |
+| **title** | string | The event's title |
+| **spoken_languages** | list in a string form, with elements separated by comma (',') | List of languages, separated by comma (','). |
 ## Events List [/events]
 
 ### Get Events [GET /events{?future}{&public}{&archived}{&countryCode}{&eventType}{&trainerId}{&widgetId}{&confirmed}{&fields}]
 
 Get a list of events
+
+The output depends on `fields` parameters. If `fields` parameter is missing,
+then a default set of event attributes are returned. The default attributes are:
+`id`, `hashed_id`, `title`, `spoken_languages`, `start`, `end`,  
+
+#### Changelog
+
+* test
 
 + Parameters
     + future: true (boolean, optional) - If true, only future events in the list. If false, only past events in the list.
@@ -36,6 +53,7 @@ Get a list of events
 
 
 + Response 200 (application/json)
+
     + Body
 
             [{
