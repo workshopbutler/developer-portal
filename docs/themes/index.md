@@ -14,18 +14,7 @@ To make the development of our backend system, the WordPress plugin, the JS widg
 the themes themselves less interconnected, we branched out the themes, and deploy them
 separately.
 
-## Versions
-
-!!! important
-    Starting the version 0.4.0 all themes are situated on `https://cdn.workshopbutler.com`
-
-| Version | Files |
-| ------- | ----- |
-| 0.4.0   | [css](https://cdn.workshopbutler.com/styles.0.4.0.min.css),  [templates](https://cdn.workshopbutler.com/templates.0.4.0.js) |
-| 0.3.2   | [css](https://integrations.workshopbutler.com/themes.0.3.2.min.css) |
-| 0.3.1.  | [css](https://integrations.workshopbutler.com/themes.0.3.1.min.css) |
-| 0.3.0   | [css](https://integrations.workshopbutler.com/themes.0.3.1.min.css) |
-
+p
 ## Creating a Custom Theme
 Both our WordPress plugin and JS widgets support custom themes. You can
 change the layout and styles of all pages.

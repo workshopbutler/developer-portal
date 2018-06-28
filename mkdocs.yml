@@ -47,8 +47,9 @@ pages:
 - Home:
   - Home: index.md
   - Contributing: contributing.md
-#- API:
-#  - Reference: api/index.md
+- API:
+  - Reference: api/index.md
+  - Changelog: api/changelog.md
 - JS Widgets:
   - Getting Started: widgets/index.md
   - Widgets:
