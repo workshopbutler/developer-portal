@@ -4,10 +4,8 @@ before_install:
   - pip install mkdocs
   - pip install mkdocs-material
   - pip install pymdown-extensions
-  - npm install -g aglio
 
 script:
-  - chmod +x build.sh
   - mkdocs build
 
 after_success:
