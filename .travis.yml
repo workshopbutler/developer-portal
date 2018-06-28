@@ -8,7 +8,7 @@ before_install:
 
 script:
   - chmod +x build.sh
-  - ./build.sh
+  - mkdocs build
 
 after_success:
   - echo "${SSH_KEY}" | base64 --decode >/tmp/ssh_rsa
