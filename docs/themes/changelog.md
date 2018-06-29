@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.5.3
+* Updates the templates to support the changes in [JS Widgets](../widgets/index.md) API version 0.7.0
+
 ## 0.5.1
 * Further improves the templates to remove the dependence on classes for the [JS widgets](https://github.com/workshopbutler/js-widgets) logic
 

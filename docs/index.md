@@ -2,7 +2,7 @@
 
 There are several tools for developers to get the most of out Workshop Butler.
 
-* [Workshop Butler API](https://support.workshopbutler.com/api) - REST API
+* [Workshop Butler API](api/index.md) - REST API
 * [Workshop Butler JS Widgets](widgets/index.md) - a widgets library which allows you to integrate your website with Workshop Butler
 * [WordPress Plugin](wordpress/index.md) - integrate your WordPress website with Workshop Butler to
 show workshops, trainers, and accept registrations

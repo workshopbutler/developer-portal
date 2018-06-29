@@ -1,7 +1,7 @@
 # Getting Started
 
 !!! info
-    Current version: 0.5.1
+    Current version: 0.5.3
 
     Repository: [https://github.com/workshopbutler/themes](https://github.com/workshopbutler/themes)
 

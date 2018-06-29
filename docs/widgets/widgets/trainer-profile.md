@@ -25,7 +25,7 @@ const widgets = [
        widgets: [
            {
                type: 'SidebarEventList',
-               hideIfEmpty: true,
+               hideIfEmpty: true,a
                target: '#upcoming-events-nearby',
                eventPageUrl: '/event-page.html',
                length: 5,
