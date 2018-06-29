@@ -1,5 +1,11 @@
 # Update Notes
 
+## 0.7.1
+Just bump up the version number:
+```html
+<script src="https://cdn.workshopbutler.com/widgets.0.7.1.js"></script>
+```
+
 ## 0.7.0
 
 ### Scripts

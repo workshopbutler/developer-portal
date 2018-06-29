@@ -59,7 +59,7 @@ pages:
     - Trainer Profile: widgets/widgets/trainer-profile.md
     - Registraiton Form: widgets/widgets/registration-form.md
     - Sidebar Event List: widgets/widgets/sidebar-event-list.md
-  - Update Notes: widgets/update-notes.md
+  - Upgrade Notes: widgets/update-notes.md
   - Changelog: widgets/changelog.md
 - Themes:
   - Getting Started: themes/index.md

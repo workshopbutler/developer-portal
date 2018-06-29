@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.7.1
+* Fixes a bug when a event's timezone is shown even if it does not exist
+
 ## 0.7.0
 **Support for times and timezones in events**
 

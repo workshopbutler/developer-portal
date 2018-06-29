@@ -1,7 +1,7 @@
 # JS Widgets
 
 !!!info
-    Current version: 0.7.0
+    Current version: 0.7.1
 
     Repository: https://github.com/workshopbutler/js-widgets
 
