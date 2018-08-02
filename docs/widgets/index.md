@@ -29,6 +29,7 @@ There are six types of supported widgets:
 
 | Version | Files |
 | ------- | ----- |
+| 0.7.1   | [0.7.1](https://cdn.workshopbutler.com/widgets.0.7.1.js) |
 | 0.7.0   | [0.7.0](https://cdn.workshopbutler.com/widgets.0.7.0.js) |
 | 0.6.0   | [0.6.0](https://cdn.workshopbutler.com/widgets.0.6.0.js) |
 | 0.5.0   | [0.5.0](https://cdn.workshopbutler.com/widgets.0.5.0.js) |
@@ -43,10 +44,10 @@ There are six types of supported widgets:
 Add this code to the header of any page you want to have a working widget:
 
 ```html
-<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
-<script src="https://cdn.workshopbutler.com/widgets.0.6.0.js" defer></script>
-<link href="https://cdn.workshopbutler.com/styles.0.5.1.min.css" rel="stylesheet">
+<script src="https://cdn.workshopbutler.com/widgets.0.7.1.js" defer></script>
+<link href="https://cdn.workshopbutler.com/styles.0.5.3.min.css" rel="stylesheet">
 ```
 
 ### Initialise a widget (or widgets)

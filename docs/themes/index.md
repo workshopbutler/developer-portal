@@ -14,7 +14,6 @@ To make the development of our backend system, the WordPress plugin, the JS widg
 the themes themselves less interconnected, we branched out the themes, and deploy them
 separately.
 
-p
 ## Creating a Custom Theme
 Both our WordPress plugin and JS widgets support custom themes. You can
 change the layout and styles of all pages.

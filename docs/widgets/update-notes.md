@@ -1,4 +1,4 @@
-# Update Notes
+# Upgrade Notes
 
 ## 0.7.1
 Just bump up the version number:

@@ -52,6 +52,7 @@ pages:
   - Changelog: api/changelog.md
 - JS Widgets:
   - Getting Started: widgets/index.md
+  - Quick Start Guide: widgets/quick-start.md
   - Widgets:
     - Schedule: widgets/widgets/schedule.md
     - Event Page: widgets/widgets/event-page.md
