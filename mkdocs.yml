@@ -58,8 +58,18 @@ pages:
     - Event Page: widgets/widgets/event-page.md
     - Trainer List: widgets/widgets/trainer-list.md
     - Trainer Profile: widgets/widgets/trainer-profile.md
-    - Registraiton Form: widgets/widgets/registration-form.md
+    - Registration Page: widgets/widgets/registration-page.md
     - Sidebar Event List: widgets/widgets/sidebar-event-list.md
+  - Older versions:
+    - 0.7.x:
+      - Getting Started: widgets/versions/0.7.x/index.md
+      - Widgets:
+        - Schedule: widgets/versions/0.7.x/widgets/schedule.md
+        - Event Page: widgets/versions/0.7.x/widgets/event-page.md
+        - Trainer List: widgets/versions/0.7.x/widgets/trainer-list.md
+        - Trainer Profile: widgets/versions/0.7.x/widgets/trainer-profile.md
+        - Registration Form: widgets/versions/0.7.x/widgets/registration-form.md
+        - Sidebar Event List: widgets/versions/0.7.x/widgets/sidebar-event-list.md
   - Upgrade Notes: widgets/update-notes.md
   - Changelog: widgets/changelog.md
 - Themes:
