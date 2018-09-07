@@ -1,7 +1,7 @@
 # JS Widgets
 
 !!!info
-    Current version: 1.x.x
+    Current version: 1.0.1-beta.1
 
     Repository: https://github.com/workshopbutler/js-widgets
 
@@ -13,7 +13,7 @@ There are six types of supported widgets:
 
 * [event schedule](widgets/schedule.md)
 * [event page](widgets/event-page.md) containing the details of a specific event
-* [registration page](widgets/registration-page.md)
+* [registration page](widgets/registration-form.md)
 * [list of trainers](widgets/trainer-list.md)
 * [trainer profile page](widgets/trainer-profile.md)
 * [sidebar list of events](widgets/sidebar-event-list.md) made to show a list of events in a sidebar-friendly manner
@@ -29,7 +29,7 @@ There are six types of supported widgets:
 
 | Version | Files |
 | ------- | ----- |
-| 1.0.x   | [1.0.0](https://cdn.workshopbutler.com/widgets.1.0.0.js) |
+| 1.0.1-beta.1   | [1.0.1-beta.1](https://cdn.workshopbutler.com/widgets.1.0.1-beta.1.js) |
 | 0.7.1   | [0.7.1](https://cdn.workshopbutler.com/widgets.0.7.1.js) |
 | 0.7.0   | [0.7.0](https://cdn.workshopbutler.com/widgets.0.7.0.js) |
 | 0.6.0   | [0.6.0](https://cdn.workshopbutler.com/widgets.0.6.0.js) |
@@ -47,8 +47,8 @@ Add this code to the header of any page you want to have a working widget:
 ```html
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
-<script src="https://cdn.workshopbutler.com/widgets.1.0.0.js" defer></script>
-<link href="https://cdn.workshopbutler.com/styles.1.0.0.min.css" rel="stylesheet">
+<script src="https://cdn.workshopbutler.com/widgets.1.0.1-beta.1.js" defer></script>
+<link href="https://cdn.workshopbutler.com/styles.1.0.1-beta.1.min.css" rel="stylesheet">
 ```
 
 ### Initialise a widget (or widgets)
@@ -72,8 +72,7 @@ document.addEventListener('wsbwidgetsloaded', function () {
        target: '#wsb-event-list',
        theme: 'alfred',
        eventPageUrl: '/event-details.html',
-       filters: ['type', 'location', 'language', 'trainer'],
-       template: '#event-tpl'
+       filters: ['type', 'location', 'language', 'trainer']
    };
    const widgets = [eventList];
    const config = {

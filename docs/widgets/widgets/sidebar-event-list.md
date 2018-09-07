@@ -20,6 +20,25 @@ This widget renders the list of events for your account in a layout, friendly fo
 | **excludeId** | optional int || Exclude an event with the ID from the list. For example, to exclude a current event from the list of upcoming events on the event page. <br>To use it on [an event page](event-page.md), use a helper to retrieve the ID of the trainer:<br>`#!js WorkshopButlerWidgets.getQueryParam('id')` |
 | **theme** | optional string || Name of the theme. Five themes are supported out of the box: *alfred*, *dacota*, *britton*, *hayes*, and *gatsby*. Provide a name of your own theme if you [created a custom one](../../themes/custom-theme.md). |
 
+## Container
+There is a difference between containers for other widgets, and a container for `SidebarEventList` widget. There are two
+reasons to that difference:
+
+1. `SidebarEventList` can be a part of other widgets
+2. It has `hideIfEmpty` configuration option which hides the content if there are no events.
+
+That is why a container for a standalone `SidebarEventList` should be similar to:
+
+```html
+<div id="upcoming-events-nearby" class="wsb-content">
+  <div data-events-list></div>
+</div>
+``` 
+
+### Important takeaways
+1. A container should have a class `wsb-content`. Otherwise, [the default themes](/themes/index.md) do not work
+2. There must be a `<div data-events-list></div>` inside the container. Otherwise, you do not see the list of events.
+
 ## Example
 
 ```javascript

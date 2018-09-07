@@ -53,12 +53,13 @@ pages:
 - JS Widgets:
   - Getting Started: widgets/index.md
   - Quick Start Guide: widgets/quick-start.md
+  - General Configuration: widgets/general-configs.md
   - Widgets:
     - Schedule: widgets/widgets/schedule.md
     - Event Page: widgets/widgets/event-page.md
     - Trainer List: widgets/widgets/trainer-list.md
     - Trainer Profile: widgets/widgets/trainer-profile.md
-    - Registration Page: widgets/widgets/registration-page.md
+    - Registration Page: widgets/widgets/registration-form.md
     - Sidebar Event List: widgets/widgets/sidebar-event-list.md
   - Older versions:
     - 0.7.x:
