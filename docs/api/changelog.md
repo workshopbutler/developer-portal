@@ -1,5 +1,8 @@
 # Changelog
 
+## 2018-09-14
+* Adds new optional parameter **categoryId** for [Events API](index.md#list-all-events)
+
 ## 2018-06-28
 
 * **schedule** and **location** attributes were added to the [Event](index.md#the-event-object) object 

@@ -37,7 +37,7 @@ Represents an event's title
     This shortcode works only for [Tiles](https://support.workshopbutler.com/articles/configuring-the-wordpress-plugin/) layout
     of the schedule
 
-Represents an event's details (location and dates)
+Represents an event's details (location, dates and trainers)
 
 ## wsb_schedule_register
 

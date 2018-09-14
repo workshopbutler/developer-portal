@@ -489,6 +489,7 @@ then a default set of event attributes is returned.
 | archived | optional boolean | null | If true, only archived events in the list. If false, only active events in the list |
 | countryCode | optional string | null | ISO 8166-2 country code. If set, only events from this country in the list. |
 | eventType | optional number | null | Unique identifier of an event type. If set, only events with this type in the list. |
+| categoryId | optional number | null | Unique identifier of a category. If set, only events of this category in the list. |
 | trainerId | optional number | null | If set, only the events ran by a trainer with `id=[trainerId]` are returned |
 | confirmed | optional boolean | null | If set, events are filtered by their confirmation state |
 | widgetId | optional string | null | ==DEPRECATED==. ID of the website widget, created by a trainer |
