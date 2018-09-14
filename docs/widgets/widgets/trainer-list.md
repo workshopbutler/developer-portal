@@ -1,4 +1,4 @@
-# Trainer List
+# List of Trainers
 
 This widget renders the list of trainers from your account.
 

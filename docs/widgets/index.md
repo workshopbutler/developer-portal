@@ -1,7 +1,7 @@
 # JS Widgets
 
 !!!info
-    Current version: 1.0.1-beta.1
+    Current version: 1.0.1-beta.3
 
     Repository: https://github.com/workshopbutler/js-widgets
 
@@ -9,7 +9,7 @@ Workshop Butler JS Widgets library allows you to display information about event
 your website and enables visitors to register for your workshops via customisable registration forms.
 It is easily configurable and works seamlessly with [Workshop Butler API](/api).
 
-There are six types of supported widgets:
+There are seven types of supported widgets:
 
 * [event schedule](widgets/schedule.md)
 * [event page](widgets/event-page.md) containing the details of a specific event
@@ -17,6 +17,7 @@ There are six types of supported widgets:
 * [list of trainers](widgets/trainer-list.md)
 * [trainer profile page](widgets/trainer-profile.md)
 * [sidebar list of events](widgets/sidebar-event-list.md) made to show a list of events in a sidebar-friendly manner
+* [list of endorsements](widgets/endorsement-list.md) shows the list of endorsements for a trainer
 
 ## Requirements
 
@@ -29,6 +30,7 @@ There are six types of supported widgets:
 
 | Version | Files |
 | ------- | ----- |
+| 1.0.1-beta.3   | [1.0.1-beta.3](https://cdn.workshopbutler.com/widgets.1.0.1-beta.3.js) |
 | 1.0.1-beta.1   | [1.0.1-beta.1](https://cdn.workshopbutler.com/widgets.1.0.1-beta.1.js) |
 | 0.7.1   | [0.7.1](https://cdn.workshopbutler.com/widgets.0.7.1.js) |
 | 0.7.0   | [0.7.0](https://cdn.workshopbutler.com/widgets.0.7.0.js) |
@@ -47,8 +49,8 @@ Add this code to the header of any page you want to have a working widget:
 ```html
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
-<script src="https://cdn.workshopbutler.com/widgets.1.0.1-beta.1.js" defer></script>
-<link href="https://cdn.workshopbutler.com/styles.1.0.1-beta.1.min.css" rel="stylesheet">
+<script src="https://cdn.workshopbutler.com/widgets.1.0.1-beta.3.js" defer></script>
+<link href="https://cdn.workshopbutler.com/styles.1.0.1-beta.3.min.css" rel="stylesheet">
 ```
 
 ### Initialise a widget (or widgets)

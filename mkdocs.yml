@@ -55,12 +55,13 @@ pages:
   - Quick Start Guide: widgets/quick-start.md
   - General Configuration: widgets/general-configs.md
   - Widgets:
-    - Schedule: widgets/widgets/schedule.md
     - Event Page: widgets/widgets/event-page.md
-    - Trainer List: widgets/widgets/trainer-list.md
-    - Trainer Profile: widgets/widgets/trainer-profile.md
+    - Event Schedule: widgets/widgets/schedule.md
+    - List of Endorsements: widgets/widgets/endorsement-list.md
+    - List of Trainers: widgets/widgets/trainer-list.md
     - Registration Page: widgets/widgets/registration-form.md
     - Sidebar Event List: widgets/widgets/sidebar-event-list.md
+    - Trainer Profile: widgets/widgets/trainer-profile.md
   - Older versions:
     - 0.7.x:
       - Getting Started: widgets/versions/0.7.x/index.md
