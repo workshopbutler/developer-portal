@@ -1,7 +1,7 @@
 # JS Widgets
 
 !!!info
-    Current version: 1.0.1-beta.3
+    Current version: 1.0.1-beta.4
 
     Repository: https://github.com/workshopbutler/js-widgets
 
@@ -30,6 +30,7 @@ There are seven types of supported widgets:
 
 | Version | Files |
 | ------- | ----- |
+| 1.0.1-beta.4   | [1.0.1-beta.4](https://cdn.workshopbutler.com/widgets.1.0.1-beta.4.js) |
 | 1.0.1-beta.3   | [1.0.1-beta.3](https://cdn.workshopbutler.com/widgets.1.0.1-beta.3.js) |
 | 1.0.1-beta.1   | [1.0.1-beta.1](https://cdn.workshopbutler.com/widgets.1.0.1-beta.1.js) |
 | 0.7.1   | [0.7.1](https://cdn.workshopbutler.com/widgets.0.7.1.js) |
