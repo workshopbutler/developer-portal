@@ -46,3 +46,7 @@ Represents an event's details (location, dates and trainers)
     of the schedule
 
 Represents a registration button to the event
+
+### Attributes
+
+* **registration**, *boolean*. When true, `Register` button for each event leads directly to the registration form, not to the event page. 

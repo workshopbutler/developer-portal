@@ -19,6 +19,11 @@ There are seven types of supported widgets:
 * [sidebar list of events](widgets/sidebar-event-list.md) made to show a list of events in a sidebar-friendly manner
 * [list of endorsements](widgets/endorsement-list.md) shows the list of endorsements for a trainer
 
+## Website Configuration Kit
+We highly recommend you to use our configuration kit. With it, you can easily configure any widget with a click-through UI. 
+
+[https://workshopbutler.com/kit](https://workshopbutler.com/kit)
+
 ## Requirements
 
 * jQuery version higher than 2.1.4
@@ -50,8 +55,8 @@ Add this code to the header of any page you want to have a working widget:
 ```html
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
-<script src="https://cdn.workshopbutler.com/widgets.1.0.1-beta.3.js" defer></script>
-<link href="https://cdn.workshopbutler.com/styles.1.0.1-beta.3.min.css" rel="stylesheet">
+<script src="https://cdn.workshopbutler.com/widgets.1.0.1-beta.4.js" defer></script>
+<link href="https://cdn.workshopbutler.com/styles.1.0.1-beta.4.min.css" rel="stylesheet">
 ```
 
 ### Initialise a widget (or widgets)

@@ -62,6 +62,10 @@ pages:
     - Registration Page: widgets/widgets/registration-form.md
     - Sidebar Event List: widgets/widgets/sidebar-event-list.md
     - Trainer Profile: widgets/widgets/trainer-profile.md
+  - Customisation:
+    - Template Customisation: widgets/custom/template.md
+    - Theme Customisation: widgets/custom/theme.md
+    - Widget Customisation: widgets/custom/widget.md
   - Older versions:
     - 0.7.x:
       - Getting Started: widgets/versions/0.7.x/index.md
@@ -86,6 +90,7 @@ pages:
     - Page Level shortcodes: wordpress/shortcodes/page-level.md
     - Schedule Template: wordpress/shortcodes/schedule-template.md
     - Event Template: wordpress/shortcodes/event-template.md
+    - Registration Page Template: wordpress/shortcodes/registration-page.md
     - Trainer List Template: wordpress/shortcodes/trainer-list-template.md
     - Trainer Profile Template: wordpress/shortcodes/trainer-profile-template.md
   - Changelog: wordpress/changelog.md
