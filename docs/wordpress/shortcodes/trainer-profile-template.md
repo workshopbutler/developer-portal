@@ -13,13 +13,13 @@ A proposed structure for the shortcodes:
     [wsb_trainer_badges]
     [wsb_trainer_events]
     [wsb_trainer_bio]
-    [wsb_trainer_endorsements]
-        [wsb_trainer_endorsement]
-            [wsb_trainer_endorsement_author]
-            [wsb_trainer_endorsement_rating]
-            [wsb_trainer_endorsement_content]
-        [/wsb_trainer_endorsement]
-    [/wsb_trainer_endorsements]
+    [wsb_trainer_testimonials]
+        [wsb_testimonial]
+            [wsb_testimonial_author]
+            [wsb_testimonial_rating]
+            [wsb_testimonial_content]
+        [/wsb_testimonial]
+    [/wsb_trainer_testimonials]
 
 ## wsb_trainer_photo
 Renders the photo of a trainer
@@ -69,18 +69,26 @@ Renders the bio of a trainer
 !!! note
     The bio is not rendered if it is empty
 
-## wsb_trainer_endorsements
-Renders the block of endorsements. If a trainer has no endorsements, the block is not rendered.
+## wsb_trainer_testimonials
+Renders the block of testimonials. If a trainer has no testimonials, the block is not rendered.
 
-## wsb_trainer_endorsement
-Renders an endorsement.
+!!! note
+    This shortcode can be used on any page if the attribute `trainer_id` is set. It is useful for showing the list of 
+    testimonials on a website of individual trainer
 
-## wsb_trainer_endorsement_author
-Renders the name and the position of a person who left the endorsement
+### Attributes
 
-## wsb_trainer_endorsement_rating
-Renders the rating of the endorsement. The rating can be empty if the endorsement was added manually
+* **trainer_id**, *int*, *default: null*. If not null, it shows the testimonials for a trainer with the given ID. 
+
+## wsb_testimonial
+Renders an testimonial.
+
+## wsb_testimonial_author
+Renders the name and the position of a person who left the testimonial
+
+## wsb_testimonial_rating
+Renders the rating of the testimonial. The rating can be empty if the testimonial was added manually
 by a trainer, and not provided by an attendee via Workshop Butler evaluation form.
 
-## wsb_trainer_endorsement_content
-Renders the content of the endorsement
+## wsb_testimonial_content
+Renders the content of the testimonial

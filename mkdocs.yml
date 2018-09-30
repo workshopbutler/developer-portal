@@ -57,7 +57,7 @@ pages:
   - Widgets:
     - Event Page: widgets/widgets/event-page.md
     - Event Schedule: widgets/widgets/schedule.md
-    - List of Endorsements: widgets/widgets/endorsement-list.md
+    - List of Testimonials: widgets/widgets/endorsement-list.md
     - List of Trainers: widgets/widgets/trainer-list.md
     - Registration Page: widgets/widgets/registration-form.md
     - Sidebar Event List: widgets/widgets/sidebar-event-list.md
