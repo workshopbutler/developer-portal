@@ -11,9 +11,9 @@ Found a bug? Open an issue [here](https://github.com/workshopbutler/js-widgets).
 If you want to create your own widget, follow the instructions from [README](https://github.com/workshopbutler/js-widgets/blob/master/README.md).
 
 ## Themes
-Found a bug? Open an issue [here](https://github.com/workshopbutler/themes).
+Found a bug? Open an issue [here](https://github.com/workshopbutler/js-widgets).
 
-If you want to design your own theme, follow [these instructions](themes/custom-theme.md)
+If you want to design your own theme, follow [these instructions](widgets/custom/theme.md)
 
 ## WordPress Plugin
 Found a bug? Open an issue [here](https://github.com/workshopbutler/wordpress-plugin).

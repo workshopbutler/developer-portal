@@ -1,5 +1,9 @@
 # Upgrade Notes
 
+## 1.0.1
+The changes to the widgets' layout and configuration are too large. Considering a small user base using the previous
+versions, we decided not to compile the updates notes for this release
+
 ## 0.7.1
 Just bump up the version number:
 ```html

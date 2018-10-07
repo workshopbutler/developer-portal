@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.0.1
+This version represents the next generation of Workshop Butler widgets for website integration. It comes with:
+
+* Support of six languages: English, German, French, Spanish, Portuguese, and French
+* Support of locales. For example, 'en-us' and 'en-gb'
+* Much improved five themes
+* Separate registration form to workshops
+* List of testimonials for trainers
+* Multiple configuration options 
+* [Integration Kit](https://workshopbutler.com/kit) for a simple configuration
+
 ## 0.7.1
 * Fixes a bug when a event's timezone is shown even if it does not exist
 

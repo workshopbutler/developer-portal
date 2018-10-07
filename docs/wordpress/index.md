@@ -4,7 +4,7 @@
     The plugin is on the review by a WorkPress team and is not available on WordPress.org yet. If you want to use it, please, send a request to support@workshopbutler.com
 
 !!! info
-    Current version: 0.3.0  
+    Current version: 2.0.0  
 
     Repository: [https://github.com/workshopbutler/wordpress-plugin](https://github.com/workshopbutler/wordpress-plugin)
 

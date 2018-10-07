@@ -4,6 +4,10 @@ By following this step-by-step guide, you learn how to integrate your website wi
 In the end, the visitors of the website will be able to browse the schedule of workshops, register to them, 
 check your trainers and their profiles. Approximate time for the completion is 10-15 mins. 
 
+!!!info
+   We have [an easy-to-use click-through kit](https://workshopbutler.com/kit) to configure the widgets. We recommend
+   starting wih it and come back for more detailed info later.  
+
 ## How the Widgets work
 Before making the first step, let's discuss shortly how the widgets work. This knowledge helps you to understand 
 better the rest of the guide. 
@@ -42,8 +46,8 @@ Add this code to the header (`<head></head>` section) of each page you added on 
 ```html
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
-<script src="https://cdn.workshopbutler.com/widgets.1.0.1-beta.6.js" defer></script>
-<link href="https://cdn.workshopbutler.com/styles.1.0.1-beta.6.min.css" rel="stylesheet">
+<script src="https://cdn.workshopbutler.com/widgets.1.0.1.js" defer></script>
+<link href="https://cdn.workshopbutler.com/styles.1.0.1.min.css" rel="stylesheet">
 ```
 
 

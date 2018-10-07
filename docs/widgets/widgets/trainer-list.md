@@ -14,7 +14,7 @@ This widget renders the list of trainers from your account.
 | **rating** | boolean | If filter `rating` is active, ratings are visible. Otherwise they are not | When `true`, rating for public events are shown for each trainer, except when the rating is equal zero |  
 | **template** | optional string || ID of an HTML element containing a [Nunjucks template](https://mozilla.github.io/nunjucks/) for a trainer in the list. Must have a leading `#` symbol. |
 | **templateUrl** | optional string || URL to a file containing a [Nunjucks template](https://mozilla.github.io/nunjucks/) for a trainer in the list. Use it during the development only as it significantly reduces the speed of content rendering. |
-| **theme** | optional string || Name of the theme. Five themes are supported out of the box: *alfred*, *dacota*, *britton*, *hayes*, and *gatsby*. Provide a name of your own theme if you [created a custom one](/themes/custom-theme.md). |
+| **theme** | optional string || Name of the theme. Five themes are supported out of the box: *alfred*, *dacota*, *britton*, *hayes*, and *gatsby*. Provide a name of your own theme if you [created a custom one](/widgets/custom/theme.md). |
 
 ## Example
 

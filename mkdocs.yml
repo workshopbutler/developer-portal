@@ -80,8 +80,6 @@ pages:
   - Changelog: widgets/changelog.md
 - Themes:
   - Getting Started: themes/index.md
-  - Creating a Custom Theme: themes/custom-theme.md
-  - Changelog: themes/changelog.md
 - WordPress Plugin:
   - Getting Started: wordpress/index.md
   - Customising Styles: wordpress/custom-styles.md

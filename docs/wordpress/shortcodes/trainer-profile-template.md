@@ -6,7 +6,7 @@ The following shortcodes are available in the trainer profile template.
 A proposed structure for the shortcodes:
 
     [wsb_trainer_photo]
-    [wsb_trainer_name]
+    [wsb_trainer_country]
     [wsb_trainer_social_link]
     [wsb_trainer_email]
     [wsb_trainer_stats]
@@ -24,8 +24,8 @@ A proposed structure for the shortcodes:
 ## wsb_trainer_photo
 Renders the photo of a trainer
 
-## wsb_trainer_name
-Renders the full name and the country of a trainer
+## wsb_trainer_country
+Renders the country of a trainer
 
 ### Attributes
 
