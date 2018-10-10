@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.2
+* Fixes a **Trainer** filter in the schedule of events
+* Improves the styles and layout of the schedule of events a bit 
+
 ## 1.0.1
 This version represents the next generation of Workshop Butler widgets for website integration. It comes with:
 
