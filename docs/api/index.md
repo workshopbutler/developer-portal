@@ -486,7 +486,7 @@ then a default set of event attributes is returned.
 |-|-|-|-|
 | future | optional boolean | null | If true, only future events in the list. If false, only past events in the list. |
 | public | optional boolean | null | If true, only public events in the list. If false, only private events int he list. |
-| archived | optional boolean | null | If true, only archived events in the list. If false, only active events in the list |
+| archived | optional boolean | false | If true, only archived events in the list. If false, only active events in the list |
 | countryCode | optional string | null | ISO 8166-2 country code. If set, only events from this country in the list. |
 | eventType | optional number | null | Unique identifier of an event type. If set, only events with this type in the list. |
 | categoryId | optional number | null | Unique identifier of a category. If set, only events of this category in the list. |
