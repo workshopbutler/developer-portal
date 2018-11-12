@@ -21,6 +21,9 @@ A proposed structure for the shortcodes:
         [/wsb_testimonial]
     [/wsb_trainer_testimonials]
 
+## wsb_trainer_name
+Renders the name of a trainer
+
 ## wsb_trainer_photo
 Renders the photo of a trainer
 

@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.1.0
+* Adds support for WordPress 5.0
+* Adds new shortcode [wsb_trainer_name]
+* Improves the behaviour for external event pages – the links open in new tabs.
+
 ## 2.0.0 
 * Support for several languages out of the box
 * Several new widgets: registration page, configurable sidebar widget, list of endorsements
