@@ -1,5 +1,10 @@
 # Upgrade Notes
 
+## 1.1.0
+
+* The table header for `table` layout of [Schedule](widgets/schedule.md) was removed via styles. If you need it back, update `wsb-table__head` class
+* Columns in `table` layout got its own classes - `wsb-table__col-schedule`, `wsb-table__col-location` and etc. Test the integration to see if everything works correctly.
+
 ## 1.0.1
 The changes to the widgets' layout and configuration are too large. Considering a small user base using the previous
 versions, we decided not to compile the updates notes for this release

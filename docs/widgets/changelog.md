@@ -1,5 +1,22 @@
 # Changelog
 
+## 1.1.0
+This release radically improves the usability of all themes for mobiles and adds several useful features.
+
+### New
+
+* New column for a [Schedule widget](widgets/schedule.md) in a Table view - trainers
+* You can change the order of columns and hide columns in a Table view of the workshop schedule via parameters
+
+### Improved
+
+* All themes support mobile screens. Now your workshops are more accessible than ever
+* The URLs for [trainer's profile](widgets/trainer-profile.md) have a form `id=[id]&name=[trainer name]`
+
+### Changed / Removed
+* We removed the header for a Table view of the [workshop schedule](widgets/schedule.md). In this version, it is simply hidden via styles. You can show it back without changing the layout.
+* Columns in a Table view got new classes to support more flexible table configurations
+
 ## 1.0.2
 * Fixes a **Trainer** filter in the schedule of events
 * Improves the styles and layout of the schedule of events a bit 
