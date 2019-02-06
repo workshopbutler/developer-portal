@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.1.1
+Fixes several serious flaws with mobile templates which did not work correctly in many cases.
+
 ## 1.1.0
 This release radically improves the usability of all themes for mobiles and adds several useful features.
 
