@@ -42,7 +42,7 @@ Represents an event
     of the schedule
 
 * **cols**, *string*. Names of columns with data, separated by comma (,). Must be used together with other shortcodes,
-like `[wsb_schedule_title]` or `[wsb_schedule_location]`. The valid names are `schedule`, `location`, `title`, `register`.
+like `[wsb_schedule_title]` or `[wsb_schedule_location]`. The valid names are `schedule`, `location`, `title`, `register`, `trainers`.
 The order of the names matters.  
 
 The attribute `cols` defines how the header of the table with workshops is generated. If you set it to `location`, only
@@ -64,10 +64,9 @@ Shows the location of event
 
 Shows the photos and names of the trainers, running an event.
 
-!!! danger
-    This shortcode works only for [Tiles](https://support.workshopbutler.com/articles/configuring-the-wordpress-plugin/) layout
-    of the schedule
- 
+### Attributes
+
+* **trainer_name**, *boolean*. When true, the names of trainers are visible.
 
 ## wsb_schedule_register
 

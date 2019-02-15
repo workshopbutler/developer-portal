@@ -1,5 +1,21 @@
 # Changelog
 
+## 2.2.0
+This release radically improves the usability of all themes for mobile devices and adds support for
+Trainers' column in the [Schedule](shortcodes/schedule-template.md).
+
+### New
+
+* New column for a [Schedule](shortcodes/schedule-template.md) in a Table view - trainers
+
+### Improved
+
+* All themes support mobile screens. Now your workshops are more accessible than ever
+* The URLs for [trainer's profile](shortcodes/trainer-profile-template.md) have a form `id=[id]&name=[trainer name]`
+
+### Changed / Removed
+* Columns in a Table view got new classes to support more flexible table configurations
+
 ## 2.1.0
 * Adds support for WordPress 5.0
 * Adds new shortcode [wsb_trainer_name]
