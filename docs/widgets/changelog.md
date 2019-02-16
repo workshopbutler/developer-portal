@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.2.0
+
+* Functions `_t`, `_f` and widget config are available in [user's templates](custom/template.md)
+* Default translations can be modified with user dictionaries
+* *Location* filter in [the list of trainers](widgets/trainer-list.md) filters trainers by countries they work at, not the countries they live
+
 ## 1.1.1
 Fixes several serious flaws with mobile templates which did not work correctly in many cases.
 
