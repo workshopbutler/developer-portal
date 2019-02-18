@@ -1,7 +1,7 @@
 # JS Widgets
 
 !!!info
-    Current version: 1.1.1
+    Current version: 1.2.0
 
     Repository: https://github.com/workshopbutler/js-widgets
 
@@ -35,6 +35,7 @@ We highly recommend you to use our configuration kit. With it, you can easily co
 
 | Version | Files |
 | ------- | ----- |
+| 1.2.0   | [1.2.0](https://cdn.workshopbutler.com/widgets.1.2.0.js) |
 | 1.1.1   | [1.1.1](https://cdn.workshopbutler.com/widgets.1.1.1.js) |
 | 1.0.2   | [1.0.2](https://cdn.workshopbutler.com/widgets.1.0.2.js) |
 | 1.0.1   | [1.0.1](https://cdn.workshopbutler.com/widgets.1.0.1.js) |
