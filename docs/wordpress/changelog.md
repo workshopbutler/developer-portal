@@ -1,4 +1,8 @@
 # Changelog
+## 2.2.1
+
+* Rendering of [custom fields](https://support.workshopbutler.com/article/46-how-to-add-a-new-custom-field) was fixed. Before labels for custom fields were not shown
+
 
 ## 2.2.0
 This release radically improves the usability of all themes for mobile devices and adds support for

@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.1
+* Rendering of [custom fields](https://support.workshopbutler.com/article/46-how-to-add-a-new-custom-field) was fixed. Before labels for custom fields were not shown
+* Rendering of [custom page templates](https://workshopbutler.com/developers/widgets/custom/template/) was fixed. They could produce errors in some cases.
+
 ## 1.2.0
 
 * Functions `_t`, `_f` and widget config are available in [user's templates](custom/template.md)
