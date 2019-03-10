@@ -494,6 +494,7 @@ then a default set of event attributes is returned.
 | confirmed | optional boolean | null | If set, events are filtered by their confirmation state |
 | widgetId | optional string | null | ==DEPRECATED==. ID of the website widget, created by a trainer |
 | fields | optional list in a string form, with elements separated by comma (',') | null | The output contains only the defined fields. For example, `title,city` |
+| expand | optional list in a string form, with elements separated by comma (',') | null | Can expand selected objects. For now the only supported value is `category` |
 
 **Definition**
 
