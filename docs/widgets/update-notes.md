@@ -1,5 +1,11 @@
 # Upgrade Notes
 
+## 1.3.0
+No breaking changes 
+
+## 1.2.1
+No breaking changes 
+
 ## 1.1.0
 
 * The table header for `table` layout of [Schedule](widgets/schedule.md) was removed via styles. If you need it back, update `wsb-table__head` class

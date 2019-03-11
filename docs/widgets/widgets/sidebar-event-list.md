@@ -20,6 +20,7 @@ This widget renders the list of events for your account in a layout, friendly fo
 | **trainerId** | optional int || Filter events in the list by a trainer. It should contain an ID of the selected trainer. <br>To use it on [a trainer profile page](trainer-profile.md), use a helper to retrieve the ID of the trainer:<br>`#!js WorkshopButlerWidgets.getQueryParam('id')` |
 | **excludeId** | optional int || Exclude an event with the ID from the list. For example, to exclude a current event from the list of upcoming events on the event page. <br>To use it on [an event page](event-page.md), use a helper to retrieve the ID of the trainer:<br>`#!js WorkshopButlerWidgets.getQueryParam('id')` |
 | **theme** | optional string || Name of the theme. Five themes are supported out of the box: *alfred*, *dacota*, *britton*, *hayes*, and *gatsby*. Provide a name of your own theme if you [created a custom one](../../widgets/custom/theme.md). |
+| **eventPagePattern** | optional string | `id={{id}}` | ==Since v1.3.0== Allows to configure the URL for [event pages](event-page.md). Supported parameters are `{{id}}`, `{{title}}`, `{{dates}}` and `{{category}}`. `id={{id}}` parameter is required. |
 
 ## Container
 There is a difference between containers for other widgets, and a container for `SidebarEventList` widget. There are two

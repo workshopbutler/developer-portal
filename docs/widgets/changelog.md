@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.3.0
+Adds support for URL pattern of [event pages](widgets/event-page.md). Now you can use strings
+like `id={{id}}&title={{title}}&dates={{dates}}` to customise the URLs of event pages. Use `eventPagePattern`
+parameter on [Schedule](widgets/schedule.md) and [SidebarEventList](widgets/sidebar-event-list.md) widgets
+
 ## 1.2.1
 * Rendering of [custom fields](https://support.workshopbutler.com/article/46-how-to-add-a-new-custom-field) was fixed. Before labels for custom fields were not shown
 * Rendering of [custom page templates](https://workshopbutler.com/developers/widgets/custom/template/) was fixed. They could produce errors in some cases.

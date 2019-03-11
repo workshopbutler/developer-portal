@@ -20,6 +20,7 @@ This widget renders the list of public upcoming events for your account.
 | **trainerName** | optional boolean | true | If true, the name of trainers is shown in the *Trainer* column of `table` view | 
 | **fields** | optional array of string || Additional fields which should be returned by [Workshop Butler API](/api) for each event. Check the API description for the list of available fields |
 | **theme** | optional string || Name of the theme. Five themes are supported out of the box: *alfred*, *dacota*, *britton*, *hayes*, and *gatsby*. Provide a name of your own theme if you [created a custom one](../../widgets/custom/theme.md). |
+| **eventPagePattern** | optional string | `id={{id}}` | ==Since v1.3.0== Allows to configure the URL for [event pages](event-page.md). Supported parameters are `{{id}}`, `{{title}}`, `{{dates}}` and `{{category}}`. `id={{id}}` parameter is required. |
 
 
 ## Example
