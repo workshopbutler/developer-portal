@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.4.0
+SEO-related release
+
+* Adds JSON-LD markup for [event pages](widgets/event-page.md)
+* Adds page descriptions for [event pages](widgets/event-page.md)
+
 ## 1.3.0
 Adds support for URL pattern of [event pages](widgets/event-page.md). Now you can use strings
 like `id={{id}}&title={{title}}&dates={{dates}}` to customise the URLs of event pages. Use `eventPagePattern`

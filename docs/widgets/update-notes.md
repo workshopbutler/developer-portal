@@ -1,10 +1,13 @@
 # Upgrade Notes
 
+## 1.4.0
+No changes
+
 ## 1.3.0
-No breaking changes 
+No changes 
 
 ## 1.2.1
-No breaking changes 
+No changes 
 
 ## 1.1.0
 
