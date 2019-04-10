@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.5.0
+Adds a new Category filter to [Schedule](widgets/schedule.md)
+
 ## 1.4.0
 SEO-related release
 
