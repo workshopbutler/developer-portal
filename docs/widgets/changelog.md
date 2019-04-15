@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.6.0
+* Adds `future` parameter to [Schedule](widgets/schedule.md). Default is `true`
+* Adds `length` parameter to [Schedule](widgets/schedule.md). Default is `none`
+* Changes the sorting order of workshops for [Schedule](widgets/schedule.md) and [SidebarEventList](widgets/sidebar-event-list.md). 
+When `future=false`, the events are shown in the reverse order, from the latest to the oldest. 
+
 ## 1.5.0
 Adds a new Category filter to [Schedule](widgets/schedule.md)
 

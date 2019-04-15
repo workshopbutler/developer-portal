@@ -1,5 +1,11 @@
 # Upgrade Notes
 
+## 1.6.0
+No changes
+
+## 1.5.0
+No changes
+
 ## 1.4.0
 No changes
 
