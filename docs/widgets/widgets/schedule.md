@@ -13,6 +13,8 @@ This widget renders the list of public upcoming events for your account.
 | **table** | boolean | false | All default themes support two layouts for the schedule: tiles and table. When this parameters is `true`, the `table` layout is used. |
 | **cols** | optional array of string | ['schedule', 'location', 'title', 'register'] | Names of available columns. To change the order of columns in the `table` layout, change the order of the names. Valid values are: *schedule*, *location*, *title*, *trainers*, *register* |
 | **categoryId** | number | | Filters events by this category |
+| **eventTypeId** | number | | ==Since v1.7.0== Filters events by this event type |
+| **trainerId** | number | | ==Since v1.7.0== Filters events by this trainer | 
 | **length** | int |  | ==Since v1.6.0== Number of events in the list. If not set, the number of event is unlimited |
 | **future** | boolean | true | ==Since v1.6.0== When `true`, the widget shows future events. When `false`, the widget shows past events. |
 | **registration** | boolean | false | If true, a registration button for each event leads directly to [a registration page](registration-form.md), not to [an event page](event-page.md). Parameter `registrationPageUrl` must be set |    
@@ -23,6 +25,20 @@ This widget renders the list of public upcoming events for your account.
 | **fields** | optional array of string || Additional fields which should be returned by [Workshop Butler API](/api) for each event. Check the API description for the list of available fields |
 | **theme** | optional string || Name of the theme. Five themes are supported out of the box: *alfred*, *dacota*, *britton*, *hayes*, and *gatsby*. Provide a name of your own theme if you [created a custom one](../../widgets/custom/theme.md). |
 | **eventPagePattern** | optional string | `id={{id}}` | ==Since v1.3.0== Allows to configure the URL for [event pages](event-page.md). Supported parameters are `{{id}}`, `{{title}}`, `{{dates}}` and `{{category}}`. `id={{id}}` parameter is required. |
+
+## Template Options
+If you have custom templates, you can use additional parameters, not available in our standard templates. For example,
+you can show a cover image for workshops. To do it, just add something like this 
+
+```html
+{% if event.coverImage.thumbnail %}
+  <img src="{{ event.coverImage.thumbnail }}"/>
+{% endif %}
+```
+
+!!!info
+    Remember that an event may not have a cover image, or the cover image may not have a thumbnail if it was added before May 1, 2019.
+    Always check if the value is not defined.
 
 
 ## Example

@@ -1,7 +1,7 @@
 # JS Widgets
 
 !!!info
-    Current version: 1.6.0
+    Current version: 1.7.0
 
     Repository: https://github.com/workshopbutler/js-widgets
 
@@ -35,7 +35,7 @@ We highly recommend you to use our configuration kit. With it, you can easily co
 
 | Version | Files |
 | ------- | ----- |
-| 1.6.0   | [1.6.0](https://cdn.workshopbutler.com/widgets.1.6.0.js) |
+| 1.7.0   | [1.7.0](https://cdn.workshopbutler.com/widgets.1.7.0.js) |
 | 1.5.0   | [1.5.0](https://cdn.workshopbutler.com/widgets.1.5.0.js) |
 | 1.4.0   | [1.4.0](https://cdn.workshopbutler.com/widgets.1.4.0.js) |
 | 1.3.0   | [1.3.0](https://cdn.workshopbutler.com/widgets.1.3.0.js) |
@@ -60,8 +60,8 @@ Add this code to the header of any page you want to have a working widget:
 ```html
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
-<script src="https://cdn.workshopbutler.com/widgets.1.6.0.js" defer></script>
-<link href="https://cdn.workshopbutler.com/styles.1.6.0.min.css" rel="stylesheet">
+<script src="https://cdn.workshopbutler.com/widgets.1.7.0.js" defer></script>
+<link href="https://cdn.workshopbutler.com/styles.1.7.0.min.css" rel="stylesheet">
 ```
 
 ### Initialise a widget (or widgets)

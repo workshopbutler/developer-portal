@@ -46,8 +46,8 @@ Add this code to the header (`<head></head>` section) of each page you added on 
 ```html
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
-<script src="https://cdn.workshopbutler.com/widgets.1.6.0.js" defer></script>
-<link href="https://cdn.workshopbutler.com/styles.1.6.0.min.css" rel="stylesheet">
+<script src="https://cdn.workshopbutler.com/widgets.1.7.0.js" defer></script>
+<link href="https://cdn.workshopbutler.com/styles.1.7.0.min.css" rel="stylesheet">
 ```
 
 

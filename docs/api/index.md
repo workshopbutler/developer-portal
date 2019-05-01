@@ -472,6 +472,7 @@ can participate in an event and provide [evaluations](#evaluation).
 | **free** | boolean | True if the event is free |
 | **online** | boolean | True if the event is online. ==Deprecated since [2018-06-28](changelog.md#2018-06-28). Use **location**== |
 | **facilitators** | array of [trainer objects](#the-trainer-object) | Trainers, running the event |
+| **cover_image** | [image object](#the-image-object) | Contains information about a cover image. If the image is not uploaded, all parameters are `null` | 
 
 ### List all events
 
@@ -813,6 +814,13 @@ Return a detailed info about a trainer
 | **content** | string | The endorsement itself |
 | **company** | optional string | Name of the company and/or the role of the attendee |
 | **rating** | optional number | The impression, given by the attendee. The rating is `null` if the endorsement was added manually |
+
+### The image object
+
+| Name | Type | Description |
+|-|-|-|
+| **url** | optional string | URL to a full image |
+| **thumbnail** | optional string | URL to a thumbnail (300x200 px) of the full image | 
 
 ### The location object 
 

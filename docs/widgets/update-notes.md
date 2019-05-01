@@ -1,5 +1,8 @@
 # Upgrade Notes
 
+## 1.7.0
+No changes
+
 ## 1.6.0
 No changes
 

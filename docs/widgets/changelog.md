@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.7.0
+* Adds `eventTypeId` and `trainerId` parameters to [Schedule](widgets/schedule.md). If set, events in the schedule are 
+filtered by these parameters.
+* Adds support for cover images in [Schedule](widgets/schedule.md) and [EventPage](widgets/event-page.md). 
+If a workshop contains a cover image, then you can retrieve it and its thumbnail by `event.coverImage.url` and 
+`event.coverImage.thumbnail` in the templates.
+
+
 ## 1.6.0
 * Adds `future` parameter to [Schedule](widgets/schedule.md). Default is `true`
 * Adds `length` parameter to [Schedule](widgets/schedule.md). Default is `none`

@@ -19,6 +19,18 @@ This widget renders the details of a specific event.
 | **widgets** | optional array of objects || Configurations for JS widgets which should be placed on the event page when it is rendered. For example, a list of other upcoming events. |
 | **theme** | optional string || Name of the theme. Five themes are supported out of the box: *alfred*, *dacota*, *britton*, *hayes*, and *gatsby*. Provide a name of your own theme if you [created a custom one](../../widgets/custom/theme.md). |
 
+## Template Options
+If you have custom templates, you can use additional parameters, not available in our standard templates. For example,
+you can show a cover image for workshops. To do it, just add something like this 
+
+```html
+{% if event.coverImage.url %}
+  <img src="{{ event.coverImage.url }}"/>
+{% endif %}
+```
+
+
+
 ## Example
 
 ```javascript
