@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.7.3
+* Fixes rendering of italic, sub and sup tags
+* Fixes support for IE11. New polyfill must be used: https://polyfill.io/v3/polyfill.min.js?features=Number.isNaN%2CIntl%2CString.prototype.startsWith%2CString.prototype.repeat
+
+
+## 1.7.2
+* Fixes the representation of bold text in event and trainer descriptions
+
 ## 1.7.0
 * Adds `eventTypeId` and `trainerId` parameters to [Schedule](widgets/schedule.md). If set, events in the schedule are 
 filtered by these parameters.

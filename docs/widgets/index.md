@@ -35,6 +35,8 @@ We highly recommend you to use our configuration kit. With it, you can easily co
 
 | Version | Files |
 | ------- | ----- |
+| 1.7.3   | [1.7.3](https://cdn.workshopbutler.com/widgets.1.7.3.js) |
+| 1.7.2   | [1.7.2](https://cdn.workshopbutler.com/widgets.1.7.2.js) |
 | 1.7.0   | [1.7.0](https://cdn.workshopbutler.com/widgets.1.7.0.js) |
 | 1.5.0   | [1.5.0](https://cdn.workshopbutler.com/widgets.1.5.0.js) |
 | 1.4.0   | [1.4.0](https://cdn.workshopbutler.com/widgets.1.4.0.js) |
