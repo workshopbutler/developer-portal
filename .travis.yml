@@ -9,10 +9,6 @@ script:
   - mkdocs build
 
 after_success:
-  - echo "${SSH_KEY}" | base64 --decode >/tmp/ssh_rsa
-  - chmod 600 /tmp/ssh_rsa
-  - tar cz -f site.tgz -C site/ .
-  - echo "put site.tgz" > /tmp/batch
-  - echo "${SSH_SERVER} ecdsa-sha2-nistp256 ${SSH_SERVER_PUBLIC_KEY}" >> ~/.ssh/known_hosts
-  - sftp -i /tmp/ssh_rsa -b /tmp/batch ${SSH_USER}@${SSH_SERVER}:/var/www/developers
-  - ssh -i /tmp/ssh_rsa ${SSH_USER}@${SSH_SERVER} "cd /var/www/developers && tar xzf site.tgz && rm.site.tgz"
+  - echo "${SSH_KEY}" | base64 --decode >/tmp/ssh_key
+  - chmod 600 /tmp/ssh_key
+  - tar cz -C site/ . | ssh -o StrictHostKeyChecking=no -i /tmp/ssh_key ${SSH_USER}@${SSH_SERVER} "tar xz -C /var/www/developers/"
