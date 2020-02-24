@@ -52,6 +52,16 @@ one column with the caption *Where* is added. As a result, you must align the he
 
 Shows an event's title
 
+## wsb_schedule_image
+
+Shows an event's cover image (thumbnail)
+
+### Attributes
+
+* **without_url**, *boolean*. When true, the link to the image is not added.
+* **width**, *int*. The width of the image. Default - 300.
+* **height**, *int*. The height of the image. Default - 200. 
+
 ## wsb_schedule_schedule
 
 Shows the start/end dates and time of event

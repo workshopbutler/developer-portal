@@ -18,6 +18,17 @@ A proposed structure for the shortcodes:
 ## wsb_event_title
 Renders a title of the event
 
+## wsb_event_image
+
+Shows an event's cover image
+
+### Attributes
+* **type**, *enum { thumbnail, full }*. If `thumbnail`, the thumbnail is show. If `full`, an original cover image is shown. Default - `full`.
+* **width**, *int*. The width of the image. Default - 300.
+* **height**, *int*. The height of the image. Default - 200. 
+* **class**, *optional string*. If set, the class attribute is added to the image.
+
+
 ## wsb_event_registration_button
 Renders a registration button for the event. When a visitor clicks on the button,
 either a registration form is opened or he is transferred to another page. The behaviour
