@@ -37,6 +37,10 @@ depends on the event and plugin configuration.
 When the registrations are closed (no valid tickets or all of them are sold out),
 the button is inactive with an appropriate message.
 
+### Attributes
+
+* **target**, *string*. Defines where a registration form opens (new tab, new window, etc.). Possible values are the same as for `target` attribute for HTML link `<a>`. By default, set to `_self`. Works only for internal registration forms. 
+
 ## wsb_event_schedule
 Renders a start and end dates/times of the event
 

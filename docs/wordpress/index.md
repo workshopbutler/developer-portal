@@ -1,7 +1,7 @@
 # Workshop Butler WordPress Plugin
 
 !!! info
-    Current version: 2.6.0 
+    Current version: 2.9.0
 
     Repository: [https://github.com/workshopbutler/wordpress-plugin](https://github.com/workshopbutler/wordpress-plugin)
 

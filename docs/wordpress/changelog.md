@@ -1,4 +1,55 @@
 # Changelog
+## 2.9.0 
+* Adds `truncate` parameter to `wsb_schedule_title` (only for 'tile' view). By default, 60. Set to 0 or false to remove completely. ... is added when truncate is on.
+* Adds `target` parameter to `wsb_event_registration_button`. By default, set to `_self`. Possible values are the same as for `target` attribute for HTML link <a>.
+* Adds support for optional start/end dates in [ticket prices](https://workshopbutler.com/blog/sortable-tickets-optional-start-and-end-dates/)
+* Fixes deactivation behaviour for the plugin (do not remove settings anymore)
+* Adds complete settings removal when the plugin is uninstalled
+* Sends a bit more statistics on each API request
+
+
+## 2.8.4
+Fixes a random bug when workshop ID wasn't retrieved from a query string (probably erased by WordPress)
+
+## 2.8.3
+Improves handling of secure requests for reverse-proxy website
+
+## 2.8.2
+Fixes a bug in Safari preventing card payments
+
+## 2.8.1 
+Fixes an incorrect Stripe key
+
+## 2.8.0
+Adds support for card payments (card payments must be activated in Workshop Butler)
+
+## 2.7.6 
+* Fixes the output of future/past events on a trainers's page: remove private workshops from the list
+* Improves the handling of server errors during the registration process
+
+## 2.7.5
+* Fixes the output for future/past events on a trainer's page
+
+## 2.7.4 
+* Fixes a bug preventing sending a correct ticket type on multiple tickets
+* Fixes a problem with promo code box not showing when the link is clicked
+* Improves the look of registration form
+* Fixes a bug when an external registration link did not work
+
+## 2.7.3
+Partially fixes an issue when an event page template is not updated
+
+## 2.7.2
+Fixes an issue with incomplete list of trainers and events
+
+## 2.7.1
+Fixes an issue prevented to update some classes in page templates
+
+## 2.7.0
+* Cleaner, easier-to-user registration form
+* Multiple smaller UI fixes
+* Adds two new configuration options for event page: a number of events in the sidebar and what events to show in the sidebar
+
 ## 2.6.0
 * Two new shortcodes added to show cover image of events: `[wsb_schedule_image]` and `[wsb_event_image]`
 

@@ -52,6 +52,10 @@ one column with the caption *Where* is added. As a result, you must align the he
 
 Shows an event's title
 
+### Attributes
+
+* **truncate**, *boolean|int*. Maximum number of characters in the title. Adds '...' if truncation happens. When false, no truncation. Default - 60. This attribute works only for `tile` layout.   
+
 ## wsb_schedule_image
 
 Shows an event's cover image (thumbnail)

@@ -109,7 +109,8 @@ For example, this is a simplified form structure:
 [{
    "name": "Personal Info",
    "fields": [
-     ...
+     
+...
    ]
  },{
    "name": "Billing Address",
