@@ -2,7 +2,7 @@ language: python
 
 before_install:
   - pip install mkdocs
-  - pip install mkdocs-material
+  - pip install mkdocs-material==4.6.3
   - pip install pymdown-extensions
 
 script:
