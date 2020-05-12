@@ -1,4 +1,17 @@
 # Changelog
+## 2.11.0
+* Improves the output of event dates
+* Adds `only_featured` parameter to [wsb_schedule](shortcodes/page-level.md) to show only featured workshops
+* Fixes an issue with incorrect workshop dates in some border cases
+* Adds two new shortcodes for [wsb_schedule](shortcodes/schedule-template.md): `wsb_schedule_date` and `wsb_schedule_time`
+* Improves the output for timezone abbreviations which have no abbreviations (adds GMT before them)
+* Adds failed request logging with the ability to switch it off
+
+## 2.10.0
+* Fixes an issue with non-working registration form for free events
+* On the trainer's profile, the newest past events are shown, not the oldest ones
+* Improves support for multiple locales
+
 ## 2.9.0 
 * Adds `truncate` parameter to `wsb_schedule_title` (only for 'tile' view). By default, 60. Set to 0 or false to remove completely. ... is added when truncate is on.
 * Adds `target` parameter to `wsb_event_registration_button`. By default, set to `_self`. Possible values are the same as for `target` attribute for HTML link <a>.

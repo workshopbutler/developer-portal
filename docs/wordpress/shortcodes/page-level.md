@@ -27,7 +27,9 @@ shortcode like this:
 ### Attributes
 
 * **category**, *number*. Category ID to show only the events from this category
+* **event_type**, *number|list of numbers, separated by commas*. Event type (or types) to show only the events from these types. Example: `1,2,3`
 * **layout**, *string*. Type of layout. There are two available layouts: `table`, `tile`. When you do not set a layout, the one you configured through the settings, is used. 
+* **only_featured**, *boolean*. When true, only featured events are shown on the schedule. 
 
 ## wsb_event
 

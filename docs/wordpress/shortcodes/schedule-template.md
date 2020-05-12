@@ -70,6 +70,14 @@ Shows an event's cover image (thumbnail)
 
 Shows the start/end dates and time of event
 
+## wsb_schedule_date
+
+Shows the start/end dates of event
+
+## wsb_schedule_time
+
+Shows the start and end time for a one-day event, and the start time for a multi-day event 
+
 ## wsb_schedule_location
 
 Shows the location of event
