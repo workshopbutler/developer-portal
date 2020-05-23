@@ -1,4 +1,14 @@
 # Changelog
+## 2.12.0
+* Fixes a bug with incorrect Hebrew language
+* Adds new `wsb_schedule_language` shortcode which renders the column of workshop's languages in the [schedule](shortcodes/schedule-template.md#wsb_schedule_language)
+* Adds support for customizable query parameters for the schedule [wsb_schedule](shortcodes/page-level.md)
+* Reports a bit more data (request ID, user agent) on errors
+* Adds support for featured events in schedules [wsb_schedule](shortcodes/page-level.md) and on-page event lists
+* Fixes the output of ordered/unordered lists in event description and trainer profile
+* Adds a new element - `Next event` block. For now, it includes only button which contains the link to the next event
+(either any event or from specified category/event types)
+
 ## 2.11.0
 * Improves the output of event dates
 * Adds `only_featured` parameter to [wsb_schedule](shortcodes/page-level.md) to show only featured workshops

@@ -30,6 +30,7 @@ shortcode like this:
 * **event_type**, *number|list of numbers, separated by commas*. Event type (or types) to show only the events from these types. Example: `1,2,3`
 * **layout**, *string*. Type of layout. There are two available layouts: `table`, `tile`. When you do not set a layout, the one you configured through the settings, is used. 
 * **only_featured**, *boolean*. When true, only featured events are shown on the schedule. 
+* **featured_on_top**, *boolean*. When true, featured events are at the top of the schedule
 
 ## wsb_event
 
@@ -49,3 +50,11 @@ This shortcode should be added to a post or a page as a placeholder for the even
 ## wsb_registration
 
 This shortcode should be added to a post or a page as a placeholder fo the event registration form. Check [Registration Page shortcodes](registration-page.md) for the list of available shortcodes
+
+## wsb_next_event
+This shortcode should be added to a post or a page when you want to show a block with the button leading to the next active event. Check [Next Event shortcodes](next-event.md) for the list of available options.
+
+### Attributes
+
+* **category**, *number*. Category ID to show only the events from this category
+* **event_types**, *number|list of numbers, separated by commas*. Event type (or types) to show only the events from these types. Example: `1,2,3`

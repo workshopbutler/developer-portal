@@ -91,4 +91,5 @@ pages:
     - Registration Page Template: wordpress/shortcodes/registration-page.md
     - Trainer List Template: wordpress/shortcodes/trainer-list-template.md
     - Trainer Profile Template: wordpress/shortcodes/trainer-profile-template.md
+    - Next Event Template: wordpress/shortcodes/next-event.md
   - Changelog: wordpress/changelog.md

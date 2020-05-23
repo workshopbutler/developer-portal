@@ -37,16 +37,8 @@ Represents an event
 
 ### Attributes
 
-!!! danger
-    This attributes works only for [Table](https://support.workshopbutler.com/articles/configuring-the-wordpress-plugin/) layout
-    of the schedule
-
-* **cols**, *string*. Names of columns with data, separated by comma (,). Must be used together with other shortcodes,
-like `[wsb_schedule_title]` or `[wsb_schedule_location]`. The valid names are `schedule`, `location`, `title`, `register`, `trainers`.
-The order of the names matters.  
-
-The attribute `cols` defines how the header of the table with workshops is generated. If you set it to `location`, only
-one column with the caption *Where* is added. As a result, you must align the headers with related shortcodes.  
+* **tags**, *string*. Defines which tags to show for events: `all` for all tags, `free` for only free events, `featured` for featured events.
+* **highlight_featured**, *boolean*. When true, the schedule highlights featured events.
 
 ## wsb_schedule_title
 
@@ -73,6 +65,9 @@ Shows the start/end dates and time of event
 ## wsb_schedule_date
 
 Shows the start/end dates of event
+
+## wsb_schedule_language
+Shows the languages of event, separated by comma if there are several languages. Example: `English, French`
 
 ## wsb_schedule_time
 
