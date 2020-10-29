@@ -373,9 +373,6 @@ Adds a new evaluation to the platform and informs a trainer (or trainers) about 
 
 Returns the list of all your evaluations. The evaluations are returned sorted by creation date, with the most recent evaluations appearing last.
 
-!!! warning
-    This method is available only for trainer's accounts. The owners of knowledge brand and training company accounts will get `403 Forbidden` response.
-
 **URI Parameters**
 
 | Name | Type | Default | Description |
